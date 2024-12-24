@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajes Bonitos - Para Mi Novia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Para Mi Amor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="poemas.html">Poemas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recuerdos.html">Recuerdos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mensajes.html">Mensajes Bonitos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Mensajes Bonitos</h1>
+    </header>
+
+    <div class="container mt-5">
+        <p id="mensaje-especial">Haz clic en el botón para ver un mensaje especial.</p>
+        <button class="btn btn-primary" onclick="cambiarMensaje()">Mostrar Mensaje</button>
+        <button id="boton-cupon" class="btn btn-success" style="display: none;" onclick="redirigirCupon()">¡Obtén tu cupón aquí!</button>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
